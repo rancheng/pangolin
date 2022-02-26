@@ -1,1 +1,0 @@
-/usr/bin/c++ -std=c++14 -Wall -Wextra  -fPIC -O3 -DNDEBUG -rdynamic CMakeFiles/SimpleScene.dir/main.cpp.o -o SimpleScene  -Wl,-rpath,/home/ran/miniconda3/lib ../../src/lib_pangolin.a -lGL -lGLU -lGLEW -lSM -lICE -lX11 -lXext -lrt -lpthread /home/ran/miniconda3/lib/libpython3.8.so -lavcodec -lavformat -lavutil -lswscale -lpng -lz -ljpeg -ltiff 
