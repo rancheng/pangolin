@@ -31,11 +31,12 @@ you should have [numpy](http://www.numpy.org/) and [PyOpenGL](http://pyopengl.so
 
 ## Installation
 ```
+pip install find_libpython
 git clone https://github.com/uoip/pangolin.git
 cd pangolin
 mkdir build
 cd build
-cmake ..
+cmake -DPYTHON_EXECUTABLE:FILEPATH=`which python` ..
 make -j8
 cd ..
 python setup.py install
