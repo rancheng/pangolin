@@ -22,11 +22,11 @@
 #define HAVE_EIGEN
 /* #undef HAVE_TOON */
 
-/* #undef HAVE_DC1394 */
+#define HAVE_DC1394
 #define HAVE_V4L
-/* #undef HAVE_OPENNI */
+#define HAVE_OPENNI
 /* #undef HAVE_LIBREALSENSE */
-/* #undef HAVE_OPENNI2 */
+#define HAVE_OPENNI2
 /* #undef HAVE_UVC */
 /* #undef HAVE_DEPTHSENSE */
 /* #undef HAVE_TELICAM */
@@ -51,7 +51,7 @@
 #define HAVE_PNG
 #define HAVE_JPEG
 #define HAVE_TIFF
-/* #undef HAVE_OPENEXR */
+#define HAVE_OPENEXR
 /* #undef HAVE_ZSTD */
 
 /// Platform
